@@ -21,3 +21,15 @@ public class TriviaCanvas extends Canvas{
     }
 }
 ```
+
+To use your own fontFamily for the displayed text use this
+
+```
+try {
+            assert stream != null;
+            Font font = Font.createFont(Font.TRUETYPE_FONT, stream).deriveFont(16f);
+            l.setFont(font);
+        } catch (FontFormatException | IOException e) {
+            throw new RuntimeException(e);
+        }
+```

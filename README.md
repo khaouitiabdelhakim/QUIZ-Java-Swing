@@ -1,7 +1,7 @@
 # QUIZ-Java-Swing
 This is a simple quiz app of 10 questions about Java using the Swing library
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/khaouitiabdelhakim/QUIZ-Java-Swing/blob/master/screenshots/capture.PNG)
 
 In order to add the cover of the game (I mean the image you see in the app), I override the JComponent Class to draw the image as a Canvas element -> I named this Class
 TriviaCanvas
